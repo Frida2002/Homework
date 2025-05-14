@@ -9,7 +9,7 @@ library(readr)
 datos <- read_csv("Ruta de acceso") #Pon tu propia ruta de acceso
 View(datos)
 ```
-*nota: En la columna CAAPS incluye el antes mencionado, hospitales comunitarios y de especialidad*
+###### *nota: En la columna CAAPS incluye el antes mencionado, hospitales comunitarios y de especialidad*
 ## Anova
 Se realizó una ANOVA de tres factores (region, tipo de hospital y sexo). En el modelo se eliminaron todas las interaccion dobles y triples debido a que estan no aportaban algo estadisticamente significativo.
 ```r
