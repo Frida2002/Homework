@@ -22,7 +22,7 @@ summary(modelo_anova)
 ![Captura de pantalla 2025-05-12 111432](https://github.com/user-attachments/assets/524ce181-2cb0-4032-85ed-867fe7db9b4f)
 
 Se observa que el factor hospital es el unico que presenta diferencia significativa con respecto a los demas. Por lo cual solo se tomara en cuenta el mismo para el análisis.
-#### Anova de un solo factor
+### Anova de un solo factor
 Debido a que ninguna de los otros factores tiene intercción entre ellas significativamente, se realizó otra ANOVA, solo tomando el factor de interés (Tipo de hospital).
 ```r
 #ANOVA ONEFACTOR
@@ -78,7 +78,9 @@ ggplot(datos, aes(x = hos, y = egre, fill = hos)) +
 ```
 ![image](https://github.com/user-attachments/assets/70dda299-b79e-4617-8e42-f885e3bfab6a)
 
-En conclusion, existe pruebas estadisticas que demuestran que existen una diferencia entre los tipos de hopsitales en los que se registaron egresos psiquiatricos en 2022, se requiere de más informacion para deteminar la posible causa de este suceso. 
+###### *Nota: Si desear agregar otros colores puedes consultarlo en: https://r-charts.com/es/colores/*
+
+En conclusion, existen pruebas estadisticas que demuestran que hay una diferencia entre los tipos de hopsitales en los que se registaron egresos psiquiatricos en 2022, se requiere de más informacion para deteminar la posible causa de este suceso. Asi mismo es interesante saber que en promedio **hay más egresos psiquiatricos en hospitales psiquiatricos que en los CAAPS**, con ellos surgen preguntas como si esto se debe a el grado de especializacion, ingresos anuales, personal, etc. 
 
 
 
