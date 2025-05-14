@@ -41,10 +41,11 @@ shapiro.test(residuals(modelo_anova))
 Como el p-valor > 0.05 en shapiro.test, los residuos se consideran **normalmente distribuidos**.
 
 #### Prueba de homocedasticidad.
-![image](https://github.com/user-attachments/assets/47cf996e-ed12-4801-b205-b793719b0c17)
 ```r
 leveneTest(egre ~hos, data = datos)
 ```
+![image](https://github.com/user-attachments/assets/47cf996e-ed12-4801-b205-b793719b0c17)
+
 Como el p-valor > 0.05, se asume que **las varianzas son homogéneas entre grupos**.
 #### Prueba de independencia.
 ```r
@@ -80,7 +81,7 @@ ggplot(datos, aes(x = hos, y = egre, fill = hos)) +
 
 ###### *Nota: Si desear agregar otros colores puedes consultarlo en: https://r-charts.com/es/colores/*
 
-En conclusion, existen pruebas estadisticas que demuestran que hay una diferencia entre los tipos de hopsitales en los que se registaron egresos psiquiatricos en 2022, se requiere de más informacion para deteminar la posible causa de este suceso. Asi mismo es interesante saber que en promedio **hay más egresos psiquiatricos en hospitales psiquiatricos que en los CAAPS**, con ellos surgen preguntas como si esto se debe a el grado de especializacion, ingresos anuales, personal, etc. 
+En conclusion, existen pruebas estadisticas que demuestran que hay una diferencia entre los tipos de hospitales en los que se registaron egresos psiquiatricos en 2022, se requiere de más informacion para determinar la posible causa de este suceso. Asi mismo es interesante saber que en promedio **hay más egresos psiquiatricos en hospitales psiquiatricos que en los CAAPS**, con ellos surgen preguntas como si esto se debe a el grado de especializacion, ingresos anuales, personal, etc. 
 
 
 
