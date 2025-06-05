@@ -23,7 +23,7 @@ summary(modelo_anova)
 
 Se observa que el factor hospital es el unico que presenta diferencia significativa con respecto a los demas. Por lo cual solo se tomara en cuenta el mismo para el análisis.
 ### Anova de un solo factor
-Debido a que ninguna de los otros factores tiene intercción entre ellas significativamente, se realizó otra ANOVA, solo tomando el factor de interés (Tipo de hospital).
+Debido a que ninguno de los otros factores tiene intercción entre ellas significativamente, se realizó otra ANOVA, solo tomando el factor de interés (Tipo de hospital).
 ```r
 #ANOVA ONEFACTOR
 onef<-aov(egre~ hos, data=datos)
