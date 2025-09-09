@@ -1,12 +1,19 @@
 se observa variables correlacionadas. 
 ejemplo 
 
-
+para el 
 # Proporción de variada explicada por los componentes 
 
-```{r}
+```r
 
 ```
 
 
 se observa que más para dos componentes no es suficiente para explicar la 
+
+
+# Análisis de componentes principales c9n FactorMineR
+## Análisis de por varibles
+variables
+## 
+
